@@ -10,6 +10,6 @@ export function getDiary() {
 
 export function getMeme() {
   return request
-    .get(`https://meme-api.herokuapp.com/gimme/wholesomememes`)
+    .get(`https://www.memedroid.com/memes/random`)
     .then((res) => res.body)
 }
