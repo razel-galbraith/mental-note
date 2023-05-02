@@ -3,7 +3,7 @@ import { useDispatch } from 'react-redux'
 import { addEntry } from '../actions'
 import { useNavigate } from 'react-router-dom'
 import Welcome from './Welcome'
-import Meme from './Meme'
+// import Meme from './Meme'
 
 const Form = () => {
   const [emoji, setEmoji] = useState('')
@@ -175,7 +175,7 @@ const Form = () => {
           </div>
         </div>
       </div>
-      <Meme />
+      {/* <Meme /> */}
     </>
   )
 }
